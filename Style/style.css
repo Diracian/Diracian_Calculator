@@ -1,0 +1,54 @@
+body {
+	color: white;
+	background-color: #0B0B3B;
+	font-family: ubuntu, arial, calibri;
+}
+a:link {
+	color: red;
+}
+a:visited {
+	color: white;
+}
+td {
+	padding-left: 10px;
+}
+#calc {
+	width: 75px;
+	text-align: left;
+}
+#reset {
+	margin-left: 1px;
+	width: 84px;
+	text-align: left;
+}
+#form {
+	position: relative;
+}
+#a {
+	height: 23px;
+	width: 160px;
+}
+#b {
+	height: 23px;
+	width: 160px;
+}
+#c {
+	height: 23px;
+	width: 160px;	
+}
+#d {
+	height: 23px;
+	width: 160px;
+}
+#e {
+	height: 23px;
+	width: 160px;	
+}
+#f {
+	height: 23px;
+	width: 160px;
+}
+#g {
+	height: 23px;
+	width: 160px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Diracian Calculator
+		</title>
+		<script type="text/javascript" src="Scripts\mother.js"></script>
+		<script type="text/javascript" src="Scripts\selection.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\mechanics.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\electromagnetism.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\thermodynamics.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\optics.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\nuclear.js"></script>
+		<script type="text/javascript" src="Scripts\Forms\images.js"></script>
+		<script type="text/javascript" src="Scripts\equations.js"></script>
+		<link rel="stylesheet" type="text/css" href="Style\style.css">
+                <link rel="shortcut icon" href="http://www.diracian.us/icon.ico">
+        </head>
+	<body onload="position()" onResize="position()">
+		<center>
+			<h2>Diracian Physics Calculator</h2>
+			Version 1.3.2<br><br>
+			<table>
+				<tr>
+					<td id=go style="text-align: left; width: 850px; font-size: 12;">
+						Tired of repetitive physics homework with the same pointless work over and over again? Have a lot of numbers to crunch in a short period of time? The Diracian Physics Calculator is the solution to your problems! It is a free, easy to use, program to automatically crunch all of the numbers in your physics problems with no effort needed from you!
+					</td>
+				</tr>
+			</table>
+			<div id=go2><br></div>
+			<form name="scat">
+				<select id="scat">
+					<option value="1">Newtonian Mechanics</option>
+					<option value="2">Electricity and Magnetism</option>
+					<option value="3">Fluid Mechanics and Thermal Physics</option>
+					<option value="4">Waves and Optics</option>
+					<option value="5">Atomic and Nuclear Physics</option>
+				</select>
+			</form>
+			<div style="position: relative; top: -16px;">
+				<input type="button" value="Select Category" name="cat" id="cat" onclick="cat()"></input>
+			</div>
+			<div id="ocat"></div><br>
+			<div id="manual"></div>
+			<div id="form"></div>	
+			<div id=table style="position: absolute; bottom: 0; align: center;">	
+				<table id=table2 style="position: relative; bottom: 10px;">
+					<td style="text-align: left; font-size: 12;">
+						- It is recommended that you have a basic knowledge of physics before using this program.
+						<br>- While inputing data, be sure to use standard SI units. Not doing so will cause problems in equations that make use of constants.
+						<br>- If the program is failing to run, make sure you are using the most up to date version of Chrome, Opera, or Safari.
+						<br>- For reporting errors or suggesting improvements, contact the developer at jkremer95@yahoo.com.
+					</td>
+				</table>
+			</div>
+		</center>
+	</body>
+</html>
+			
